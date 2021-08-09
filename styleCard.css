@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto"; /*字體*/
+  display: flex;
+  align-items: center; /*水平制中*/
+  justify-content: center; /*垂直制中*/
+  background-image: url("../wen_shen_test_package/image/background.png");/*背景圖片*/
+background-size: cover;/*調整大小當圖片過小時，用cover去做調整*/
+}
+.main-content {
+  text-align: center;
+  box-shadow: 0 0 10px #00000070; /*圖片底下的陰影*/
+}
+
+.top-section
+{
+background-color: #575fcf;
+padding: 50px 0 50px 0;
+color: #ecf0f1;
+
+}
+.top-section img 
+{
+    
+    width: 50%;
+    border-radius: 50%;
+
+}
